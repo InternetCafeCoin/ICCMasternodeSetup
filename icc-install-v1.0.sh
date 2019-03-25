@@ -64,7 +64,7 @@ sudo apt-get install -y pwgen
 GEN_PASS=`pwgen -1 20 -n`
 IP_ADD=`curl ipinfo.io/ip`
 
-echo -e "rpcuser=iccuser\nrpcpassword=${GEN_PASS}\nserver=1\nlisten=1\nmaxconnections=64\ndaemon=1\nrpcallowip=127.0.0.1\nexternalip=${IP_ADD}:50578\nstaking=1" > /root/.icc/icc.conf
+echo -e "rpcuser=iccuser\nrpcpassword=${GEN_PASS}\nserver=1\nlisten=1\nmaxconnections=256\ndaemon=1\nrpcallowip=127.0.0.1\nexternalip=${IP_ADD}:50578\nstaking=1" > /root/.icc/icc.conf
 cd /root/icc
 ./iccd
 sleep 40
