@@ -79,17 +79,16 @@ rm tempcron
 
 echo -e "masternode=1\nmasternodeprivkey=$masternodekey\n\n\n" >> /root/.icc/icc.conf
 
-
-echo -e "addnode=54.180.86.25" >> /root/.icc/icc.conf
-echo -e "addnode=54.180.79.209" >> /root/.icc/icc.conf
-echo -e "addnode=52.78.223.170" >> /root/.icc/icc.conf
-echo -e "addnode=52.79.188.55" >> /root/.icc/icc.conf
-echo -e "addnode=13.125.249.55" >> /root/.icc/icc.conf
-echo -e "addnode=54.180.107.85" >> /root/.icc/icc.conf
-echo -e "addnode=13.125.241.77" >> /root/.icc/icc.conf
-echo -e "addnode=54.180.88.115" >> /root/.icc/icc.conf
-echo -e "addnode=54.180.92.125" >> /root/.icc/icc.conf
-echo -e "addnode=52.78.29.42" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.194.229" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.120.224" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.160.69" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.145.89" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.163.74" >> /root/.icc/icc.conf
+echo -e "addnode=52.66.238.86" >> /root/.icc/icc.conf
+echo -e "addnode=52.66.116.95" >> /root/.icc/icc.conf
+echo -e "addnode=13.233.160.183" >> /root/.icc/icc.conf
+echo -e "addnode=13.127.15.54" >> /root/.icc/icc.conf
+echo -e "addnode=13.232.197.191" >> /root/.icc/icc.conf
 
 sleep 10
 
