@@ -23,9 +23,25 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 echo -e "\n\nsetup iccd ...\n\n"
 
 cd ~
-wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-linux-v1.0.zip
-chmod -R 755 /root/icc-linux-v1.0.zip
-unzip -o icc-linux-v1.0.zip
+
+version=`lsb_release -r | awk '{print $2}
+echo "ubuntu version : "\n
+echo $version
+
+if [ $var2 = "16.04" ]; then
+    echo "setup icc for ubuntu 16.04\n"
+    wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-ubuntu16.04-v1.0.zip
+    chmod -R 755 /root/icc-ubuntu16.04-v1.0.zip
+    unzip -o icc-ubuntu16.04-v1.0.zip        
+else
+        echo "setup icc for ubuntu 18.04\n"
+    wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-ubuntu18.04-v1.0.zip
+    chmod -R 755 /root/icc-ubuntu18.04-v1.0.zip
+    unzip -o icc-ubuntu18.04-v1.0.zip
+fi
+
+
+
 sleep 5
 
 mkdir /root/icc
@@ -37,7 +53,8 @@ sleep 5
 
 rm /root/iccd
 rm /root/icc-cli
-rm /root/icc-linux-v1.0.zip
+rm icc-*-v1.0.zip
+
 
 chmod -R 755 /root/icc
 chmod -R 755 /root/.icc
