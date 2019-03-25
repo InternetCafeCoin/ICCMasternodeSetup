@@ -28,7 +28,7 @@ version=`lsb_release -r | awk '{print $2}
 echo "ubuntu version : "\n
 echo $version
 
-if [ $var2 = "16.04" ]; then
+if [ $version = "16.04" ]; then
     echo "setup icc for ubuntu 16.04\n"
     wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-ubuntu16.04-v1.0.zip
     chmod -R 755 /root/icc-ubuntu16.04-v1.0.zip
