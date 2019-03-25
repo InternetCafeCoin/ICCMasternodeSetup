@@ -11,7 +11,7 @@ rm /root/icc/icc-cli
 
 sleep 1 
 
-version=`lsb_release -r | awk '{print $2}
+version=`lsb_release -r | awk '{print $2}'`
 echo "ubuntu version : "\n
 echo $version
 
