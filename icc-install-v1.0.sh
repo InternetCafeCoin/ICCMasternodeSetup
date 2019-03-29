@@ -80,7 +80,7 @@ rm tempcron
 echo -e "masternode=1\nmasternodeprivkey=$masternodekey\n\n\n" >> /root/.icc/icc.conf
 
 echo -e "addnode=13.233.194.229" >> /root/.icc/icc.conf
-echo -e "addnode=13.233.120.224" >> /root/.icc/icc.conf
+echo -e "addnode=13.232.123.23" >> /root/.icc/icc.conf
 echo -e "addnode=13.233.160.69" >> /root/.icc/icc.conf
 echo -e "addnode=13.233.145.89" >> /root/.icc/icc.conf
 echo -e "addnode=13.233.163.74" >> /root/.icc/icc.conf
