@@ -1,4 +1,4 @@
-# ICCMasternodeSeup
+# ICCMasternodeSetup
 
 Script for installation ICC Masternode on Linux VPS
 
