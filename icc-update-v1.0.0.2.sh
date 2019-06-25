@@ -22,8 +22,6 @@ wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0.0.2/icc
 
 sleep 5
 
-chmod -R 755 /root/icc/*
-
 echo -e "\n\nlaunch iccd ...\n\n"
 ./iccd -reindex
 
