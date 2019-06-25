@@ -17,12 +17,10 @@ echo $version
 
 
 echo "setup icc for ubuntu $version\n"
-wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-cli
-wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/iccd
+wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0.0.2/icc-cli
+wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0.0.2/iccd
 
 sleep 5
-
-rm /root/icc/icc-*-v1.0.zip
 
 chmod -R 755 /root/icc/*
 
