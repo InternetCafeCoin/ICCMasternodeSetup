@@ -34,9 +34,9 @@ mkdir /.icc
 
 cd /root/icc
 
-wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/icc-cli
+wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0.0.2/icc-cli
 sleep 5
-wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0/iccd
+wget https://github.com/InternetCafeCoin/ICC-CORE/releases/download/v1.0.0.2/iccd
 sleep 5
 chmod -R 755 ./*
 
